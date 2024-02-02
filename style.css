@@ -6,6 +6,11 @@ header {
     color: #fff;
     text-align: center;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
  
 nav {
     display: flex;
@@ -34,4 +39,48 @@ header i {
 #main-nav {
     background-color: #779882;
     justify-content: space-between;
+}
+ 
+.hero-banner {
+    background-color: #779882;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: -5px;
+}
+ 
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.left-column {
+    width: 60%;
+}
+ 
+.right-column {
+    width: 40%;
+}
+
+/*skrift størrelse*/
+
+h1{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    line-height: 0.5;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    line-height: 0.5;
+}
+ 
+footer {
+    background-color: #425348;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
 }
