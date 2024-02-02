@@ -172,8 +172,11 @@ p {
 footer {
     background-color: #425348;
     color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     bottom: 0;
     width: 100%;
+    list-style: none;
 }
