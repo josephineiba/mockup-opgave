@@ -52,14 +52,30 @@ header i {
 .column {
     display: flex;
     justify-content: space-between;
+    background-color: #F3F4EF;
+    padding-bottom: 30px;
 }
  
 .left-column {
-    width: 60%;
+    width: 55%;
+    color: #3C3C3C;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    padding-right: 65px;
 }
  
 .right-column {
     width: 40%;
+}
+
+.box {
+    background-color: #425348;
+    height: 430px;
+    width: 380px;
+    margin-top: 70px;
+    border-radius: 70px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 /*skrift størrelse*/
@@ -74,6 +90,19 @@ h2 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     line-height: 0.5;
+}
+
+h3 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
  
 footer {
